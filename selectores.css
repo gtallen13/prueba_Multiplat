@@ -1,0 +1,24 @@
+.contenedor div p
+{
+
+}
+
+.lista > li:first-child
+{
+    transition: all 1s;
+}
+
+.lista:first-child
+{
+    color:green;
+}
+
+.titulo > h1 div
+{
+
+}
+
+a[href $= ".pdf"]
+{
+    
+}

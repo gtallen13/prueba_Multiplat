@@ -1,0 +1,51 @@
+.fila 
+{
+    display: flex;
+    flex-direction: column;
+}
+.casilla
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+span
+{
+    font: 10px;
+    color: #999;
+}
+ 
+input 
+{
+    padding: 10px 10px 10px 10px;
+    border-bottom-color: #474747;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: all 0.5s;
+}
+
+input:focus
+{
+    border-bottom-color: #3CCAE0;
+}
+
+label
+{
+    color: #1E1E1E;
+    font: 18px;
+}
+
+input[value="Guardar"]
+{
+    color:#07470E;
+    width: 150px;
+    height: 50px;
+    transition: all 1s;
+}
+
+input[value="Guardar"]:hover
+{
+   color: #12BF2A;
+   width: 200px;
+}
